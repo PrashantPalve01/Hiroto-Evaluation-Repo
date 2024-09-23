@@ -352,16 +352,98 @@ p{
 }
 
 footer{
-    background-color: black;
+    background:image-set("https://preview.colorlib.com/theme/hiroto/img/chooseus-bg.jpg.webp");
     padding: 20px 150px;
     margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_images{
+    
     display: flex;
     justify-content: space-between;
 }
 
-footer div img{
+.footer_images img{
 
     padding: 20px;
-    background-color: white;
     border-radius: 10px;
 }
+
+.footer_details{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding:50px 0px ;
+    color: white;
+}
+.footer_details > div:first-child{
+    width: 20%;
+}
+.footer_details > div:nth-child(2){
+    width: 20%;
+}
+.footer_details > div:last-child{
+    width: 40%;
+}
+
+.footer_details h2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer_details:first-child{
+    
+}
+.footer_details div:first-child h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.quick_links{
+    display: flex;
+    justify-content: space-between;
+}
+.quick_links ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.quick_links ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: gray;
+}
+.footer_details:last-child input{
+    
+}
+.emial_address{
+    margin-top: 20px;
+    display: flex;
+
+}
+.emial_address input{
+    width: 70%;
+    padding: 15px;
+    margin: 0px;
+}
+.emial_address button{
+    width: 30%;
+    background-color: rgb(232, 171, 39);
+    border: none;
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+
+}
+.copyright_part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: gray;
+}
+.copyright_part a{
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+}
+
